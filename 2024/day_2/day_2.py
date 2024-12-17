@@ -38,12 +38,5 @@ with open("puzzle_input") as puzzle_input:
         safe_count_part_1 += int(check_report_safety_part_1(reports_list))
         safe_count_part_2 += int(check_report_safety_part_2(reports_list))
 
-print(safe_count_part_1)
-print(safe_count_part_2)
-
-print(check_report_safety_part_2([3, 6, 4, 2, 1]))
-#print(check_report_safety_part_2([1, 2, 7, 8, 9]))
-#print(check_report_safety_part_2([9, 7, 6, 2, 1]))
-#print(check_report_safety_part_2([1, 3, 2, 4, 5]))
-#print(check_report_safety_part_2([8, 6, 4, 4, 1]))
-#print(check_report_safety_part_2([1, 3, 6, 7, 9]))
+print("First star code:", safe_count_part_1)
+print("Second star code:", safe_count_part_2)
